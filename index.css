@@ -1,0 +1,58 @@
+#container{
+	width: 800px;
+}
+
+#video_home {
+  width: 800px;
+  height: 400px;
+}
+
+#myVideo{
+	width: 100%;
+}
+
+#animatedLogo{
+    height: 65px;
+}
+
+.nav{
+	height: 65px;
+}
+
+.nav-item-home{
+    background-color: white !important;
+    padding: 5px !important;
+}
+
+.nav-item-home a{
+    padding: 0 !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  background-color: #75B09C;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #2B2D42;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #D8F793;
+}
+
+.active{
+	background-color: #D8F793;
+}
