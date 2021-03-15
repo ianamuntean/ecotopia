@@ -56,3 +56,14 @@ li a:hover {
 .active{
 	background-color: #D8F793;
 }
+
+.learn-more{
+    background-image: url("./images/learn_more.jpg");
+    height: 1050px;
+}
+
+.learn-more p{
+    font-size: large;
+    margin-left: 10%;
+    width: 55%;
+}
