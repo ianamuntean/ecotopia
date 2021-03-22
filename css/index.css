@@ -57,29 +57,81 @@ li a:hover {
 	background-color: #D8F793;
 }
 
-.contact-us{
-    font-size: x-large;
-    margin-left: 40%;
-    width: 55%;
+
+/* Style General */
+#textAbout, #factsContent, #helpContent, .contact-us {
+  margin: auto;
+  width: 70%;
+  background: rgba(229, 122, 68, 0.95);
+  padding: 10px;
+  height: 1020px;
 }
 
-.contact-us div{
-    margin-top: 1em;
-}
-
+#textAbout h2, #helpContent h1, #factsContent h1, .contact-us h1{
+  text-align: center;
+  font-size: 40px;
+  color: #2B2D42;
+  font-family: 'Lobster', cursive;
+ }
+ 
+/* Contact Us */
 .contact-us input{
-    width: 25em;
+  width: 25em;
 }
 
 .contact-us textarea{
-    width: 25em;
+  width: 25em;
 }
 
 .contact-us button{
-    width: 7.5em;
-    height: 2.5em;
-    background-color: #75B09C;
+  width: 7.5em;
+  height: 2.5em;
+  background-color: #75B09C;
 }
+
+/* Help Page CSS */
+.howToHelp {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/dogsBay.jpeg");
+  height: 1050px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#helpContent {
+  margin: auto;
+  width: 70%;
+  background: rgba(229, 122, 68, 0.95);
+  padding: 10px;
+  height: 1020px;
+}
+
+
+ #helpContent P {
+  margin: 30px 70px 0 70px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif;
+ }
+
+
+/* Facts Page */
+.facts {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/ducks.jpg");
+  height: 1050px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#factsContent P {
+  margin: 30px 70px 0 70px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif; 
+ }
 
 
 /* About Page CSS */
@@ -91,25 +143,10 @@ li a:hover {
   background-size: cover;
 }
 
-#textAbout {
-  margin: auto;
-  width: 70%;
-  background: rgba(229, 122, 68, 0.95);
-  padding: 10px;
-  height: 1020px;
-}
-
 #textAbout IMG {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-#textAbout h2 {
- text-align: center;
- font-size: 40px;
- color: #2B2D42;
- font-family: 'Lobster', cursive;
 }
 
 #textAbout P {
@@ -122,3 +159,13 @@ li a:hover {
  .important {
    color: #990000;
  }
+
+ /* Content Page */
+#contactContent {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/contact.jpg");
+  height: 1050px;
+  background-size: cover;
+}
+
