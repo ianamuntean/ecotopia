@@ -80,3 +80,45 @@ li a:hover {
     height: 2.5em;
     background-color: #75B09C;
 }
+
+
+/* About Page CSS */
+#aboutContent {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("images/about_bg.jpg");
+  height: 1050px;
+  background-size: cover;
+}
+
+#textAbout {
+  margin: auto;
+  width: 70%;
+  background: rgba(229, 122, 68, 0.95);
+  padding: 10px;
+  height: 1020px;
+}
+
+#textAbout IMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#textAbout h2 {
+ text-align: center;
+ font-size: 40px;
+ color: #2B2D42;
+ font-family: 'Lobster', cursive;
+}
+
+#textAbout P {
+  margin: 20px 70px 0 70px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif;
+ }
+
+ .important {
+   color: #990000;
+ }
