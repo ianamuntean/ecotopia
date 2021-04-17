@@ -7,7 +7,9 @@
 
 
     <link href="css/index.css" rel="stylesheet"/>
-
+    <link href="css/product_style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.shop.js"></script>
     <title>Ecotopia</title>
 
 </head>
@@ -39,8 +41,182 @@
             </li>
           </ul>
         </div>
-      
+        <div id="site">
+            <div id="content">
+            <div id="products">
+                <h1>Our eco-friendly products range</h1>
+                <ul>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/blue_top.jpg" alt="Blue top" />
+                        </div>
+                        <div class="product-description" data-name="Blue top" data-price="20">
+                            <h3 class="product-name">Blue top</h3>
+                            <p class="product-price">&euro; 20</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-1">Quantity</label>
+                                    <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/green_top.jpg" alt="Green top" />
+                        </div>
+                        <div class="product-description" data-name="Blue top" data-price="20">
+                            <h3 class="product-name">Green top</h3>
+                            <p class="product-price">&euro; 20</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-2">Quantity</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/w_blue_tshirt.jpg" alt="Blue t-shirt" />
+                        </div>
+                        <div class="product-description" data-name="Blue t-shirt" data-price="15">
+                            <h3 class="product-name">Blue t-shirt</h3>
+                            <p class="product-price">&euro; 15</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-3">Quantity</label>
+                                    <input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/w_dark_grey_tshirt.jpg" alt="Dark grey t-shirt" />
+                        </div>
+                        <div class="product-description" data-name="Blue t-shirt" data-price="15">
+                            <h3 class="product-name">Dark grey t-shirt</h3>
+                            <p class="product-price">&euro; 15</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-4">Quantity</label>
+                                    <input type="text" name="qty-4" id="qty-4" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/white_tshirt.jpg" alt="White t-shirt" />
+                        </div>
+                        <div class="product-description" data-name="White t-shirt" data-price="15">
+                            <h3 class="product-name">White t-shirt</h3>
+                            <p class="product-price">&euro; 15</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-5">Quantity</label>
+                                    <input type="text" name="qty-5" id="qty-5" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/navy_tshirt.jpg" alt="Navy t-shirt" />
+                        </div>
+                        <div class="product-description" data-name="Navy t-shirt" data-price="15">
+                            <h3 class="product-name">Navy t-shirt</h3>
+                            <p class="product-price">&euro; 15</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-6">Quantity</label>
+                                    <input type="text" name="qty-6" id="qty-6" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/water_bottle.jpg" alt="Water bottle - white" />
+                        </div>
+                        <div class="product-description" data-name="Water bottle white" data-price="10">
+                            <h3 class="product-name">Water bottle white</h3>
+                            <p class="product-price">&euro; 10</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-7">Quantity</label>
+                                    <input type="text" name="qty-7" id="qty-7" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/water_bottle_silver.jpg" alt="Water bottle - silver" />
+                        </div>
+                        <div class="product-description" data-name="Water bottle silver" data-price="10">
+                            <h3 class="product-name">Water bottle silver</h3>
+                            <p class="product-price">&euro; 10</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-8">Quantity</label>
+                                    <input type="text" name="qty-8" id="qty-8" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/cup.jpg" alt="Thermal cup" />
+                        </div>
+                        <div class="product-description" data-name="Thermal cup" data-price="12">
+                            <h3 class="product-name">Thermal cup</h3>
+                            <p class="product-price">&euro; 12</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-9">Quantity</label>
+                                    <input type="text" name="qty-9" id="qty-9" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-image">
+                            <img src="images/products/mug.jpg" alt="Steel mug" />
+                        </div>
+                        <div class="product-description" data-name="Steel mug" data-price="12">
+                            <h3 class="product-name">Steel mug</h3>
+                            <p class="product-price">&euro; 12</p>
+                            <form class="add-to-cart" action="cart.html" method="get">
+                                <div>
+                                    <label for="qty-10">Quantity</label>
+                                    <input type="text" name="qty-10" id="qty-10" class="qty" value="1" />
+                                </div>
+                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
       </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>$(document).ready(function(){ $("h1").addClass("animated bounce"); });</script>
 </body>
 </html>
   
