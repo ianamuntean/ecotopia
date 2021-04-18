@@ -73,7 +73,19 @@ li a:hover {
   color: #2B2D42;
   font-family: 'Lobster', cursive;
  }
- 
+
+.cart-item {
+  float: right;
+}
+
+.cart-item a{
+  padding: 20px 25px 0 0;
+}
+
+.cart-item a:hover {
+  background-color: #75B09C;
+}
+
 /* Contact Us */
 .contact-us input{
   width: 25em;
