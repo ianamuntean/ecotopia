@@ -64,7 +64,6 @@ li a:hover {
   width: 70%;
   background: rgba(229, 122, 68, 0.95);
   padding: 10px;
-  height: 1020px;
 }
 
 #textAbout h2, #helpContent h1, #products h1, #content h1, #checkout-order-form h2, #factsContent h1, .contact-us h1{
@@ -106,7 +105,6 @@ li a:hover {
   padding: 30px 0 0 0; 
   background-color: #75B09C;
   background-image: url("../images/dogsBay.jpeg");
-  height: 1050px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -119,7 +117,9 @@ li a:hover {
   height: 1020px;
 }
 
-
+#helpContent ul {
+  list-style-type: circle;
+}
  #helpContent P {
   margin: 30px 70px 0 70px;
   font-size: 24px;
@@ -133,9 +133,14 @@ li a:hover {
   padding: 30px 0 0 0; 
   background-color: #75B09C;
   background-image: url("../images/ducks.jpg");
-  height: 1050px;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1020px;
+}
+
+#factsContent {
+  height: 1000px;
+  overflow:hidden;
 }
 
 #factsContent P {
@@ -151,7 +156,6 @@ li a:hover {
   padding: 30px 0 0 0; 
   background-color: #75B09C;
   background-image: url("../images/about_bg.jpg");
-  height: 1050px;
   background-size: cover;
 }
 
@@ -172,12 +176,23 @@ li a:hover {
    color: #990000;
  }
 
+ #textAbout h3{
+  text-align: left;
+  font-size: 26px;
+  color: #2B2D42;
+  font-family: 'Lobster', cursive;
+  margin-left: 20px;
+ }
+
+ #map {
+   margin-top: 20px;
+ }
+
  /* Content Page */
 #contactContent {
   padding: 30px 0 0 0; 
   background-color: #75B09C;
   background-image: url("../images/contact.jpg");
-  height: 1050px;
   background-size: cover;
 }
 
