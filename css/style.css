@@ -1,0 +1,549 @@
+#container{
+	width: 800px;
+}
+
+#video_home {
+  width: 800px;
+  height: 400px;
+}
+
+#myVideo{
+	width: 100%;
+}
+
+#animatedLogo{
+    height: 65px;
+}
+
+.nav{
+	height: 65px;
+}
+
+.nav-item-home{
+    background-color: #75B09C !important;
+    padding: 0;
+}
+
+.nav-item-home a{
+    padding: 0 !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  background-color: #75B09C;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #2B2D42;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #D8F793;
+}
+
+.active{
+	background-color: #D8F793;
+}
+
+
+/* Style General */
+#textAbout, #factsContent, #helpContent, .contact-us {
+  margin: auto;
+  width: 70%;
+  background: rgba(229, 122, 68, 0.95);
+  padding: 10px;
+}
+
+#textAbout h2, #helpContent h1, #products h1, #content h1, #checkout-order-form h2, #factsContent h1, .contact-us h1{
+  text-align: center;
+  font-size: 40px;
+  color: #2B2D42;
+  font-family: 'Lobster', cursive;
+ }
+
+.cart-item {
+  float: right;
+}
+
+.cart-item a{
+  padding: 20px 25px 0 0;
+}
+
+.cart-item a:hover {
+  background-color: #75B09C;
+}
+
+/* Contact Us */
+.contact-us input{
+  width: 25em;
+}
+
+.contact-us textarea{
+  width: 25em;
+}
+
+.contact-us button{
+  width: 7.5em;
+  height: 2.5em;
+  background-color: #75B09C;
+}
+
+/* Help Page CSS */
+.howToHelp {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/dogsBay.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#helpContent {
+  margin: auto;
+  width: 70%;
+  background: rgba(229, 122, 68, 0.95);
+  padding: 10px;
+  height: 1020px;
+}
+
+ #helpContent P {
+  margin: 30px 70px 0 70px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif;
+ }
+
+
+/* Facts Page */
+.facts {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/ducks.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1020px;
+}
+
+#factsContent {
+  height: 1000px;
+  overflow:hidden;
+}
+
+#factsContent P {
+  margin: 30px 70px 0 70px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif; 
+ }
+
+
+/* About Page CSS */
+#aboutContent {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/about_bg.jpg");
+  background-size: cover;
+}
+
+#textAbout IMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#textAbout P {
+  margin: 20px 70px 0 70px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif;
+ }
+
+ .important {
+   color: #990000;
+ }
+
+ #textAbout h3{
+  text-align: left;
+  font-size: 26px;
+  color: #2B2D42;
+  font-family: 'Lobster', cursive;
+  margin-left: 20px;
+ }
+
+ #map {
+   margin-top: 20px;
+ }
+
+ /* Content Page */
+#contactContent {
+  padding: 30px 0 0 0; 
+  background-color: #75B09C;
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  height: 1050px;
+}
+
+.contact-us {
+  height: 1000px;
+}
+
+#contactUs h1 {
+	padding-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	color: #264653;
+	letter-spacing: 5px;
+	text-shadow: 3px 4px #E9C46A;
+}
+
+.contact-us p {
+  font-size: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  
+}
+.contact-us form {
+	width: 80%;
+	font-size: 28px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+  margin-top: 30px;
+  color: #264653;
+  font-weight: bold;
+}
+
+#contact-us button {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+/* Products */ 
+
+body {
+	background-color:#f2f2f2;
+	
+}
+
+/* Products Page */
+#site {
+	padding: 30px 0 0 0;
+	
+}
+
+/* Style General */
+#content {
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	height: 1020px;
+}
+
+#products h1 {
+	color: #e57a44;
+}
+
+#products h5 {
+	text-align: left;
+	font-size: 20px;
+	color: #2B2D42;
+	font-family: 'Lobster', cursive;
+	margin-left: 10px;
+	margin-bottom: 100px;
+	font-weight: normal;
+}
+
+#products ul {
+	background-color:#f2f2f2;
+	margin: 1.5em 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#shopping-cart-actions{
+	background-color: #f2f2f2;
+}
+
+#products li {
+	float: left;
+	margin: 20px auto;
+	display: block;
+}
+
+.product-image {
+	margin: 0 auto 1em auto;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.product-image img {
+	width: 300px;
+	height: 300px;
+}
+
+.product-description {
+	padding: 1em;
+	background:#f2f2f2;
+	color: #e57a44;
+
+}
+
+.product-name {
+	text-align: center;
+	color: #2B2D42;
+	margin: 0;
+	padding-bottom: 0.2em;
+	border-bottom: 1px dotted #666;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.product-price {
+	width: 4em;
+	height: 4em;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 1em auto;
+	background: #E5DCDD;
+	color: #800;
+	line-height: 4;
+	border-radius: 50%;
+}
+
+form.add-to-cart div,
+form.add-to-cart p {
+	text-align: center;
+}
+
+form input.qty {
+	width: 40px;
+	border: 1px solid #eee;
+	font: 1em 'PT Serif', serif;
+	background: #E5DCDD;
+	color: #000;
+	border-radius: 3px;
+	margin-left: 0.4em;
+}
+
+.btn, a.btn {
+	display: inline-block;
+	background: #E57A44;
+	color: #fff;
+	font: 1em 'PT Serif', serif;
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #a00;
+}
+
+
+#site-info {
+	height: 3em;
+	width: 100%;
+	line-height: 3;
+	text-align: center;
+	background: #cc8500;
+	position: absolute;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+}
+
+body#checkout-page #site-info {
+	position: static;
+}
+
+#shopping-cart {
+	margin: 1.5em 0;
+}
+
+.shopping-cart {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.shopping-cart th {
+	font-size: 1.3em;
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+}
+
+.shopping-cart td {
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+}
+
+.shopping-cart tr:nth-child(even) {
+	background: #fafafa;
+}
+
+.shopping-cart td.pdelete {
+	text-align: center;
+}
+
+.pdelete a,
+.pdelete a:hover {
+	color: #c00;
+	text-decoration: none;
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+}
+
+#shopping-cart-actions {
+	margin: 1.5em 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#shopping-cart-actions li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+#pricing {
+	padding: 0.5em;
+	margin: 1em 0;
+	background: #fafafa;
+}
+
+#sub-total, #shipping {
+	margin: 1.5em 0;
+	text-align: right;
+}
+
+#sub-total span,
+#shipping span {
+	margin-left: 1em;
+}
+
+#content > h1,
+#checkout-order-form h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#pricing #sub-total,
+#pricing #shipping {
+	margin: 1em 0;
+}
+
+#checkout-order-form {
+	margin: 1.5em 0;
+}
+
+#checkout-order-form fieldset {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 1em;
+	margin-bottom: 1.3em;
+}
+
+#checkout-order-form legend {
+	padding: 0.3em;
+	background: #fafafa;
+	font-weight: bold;
+}
+
+#checkout-order-form div {
+	margin-bottom: 1em;
+}
+
+#checkout-order-form label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+	text-align: left;
+}
+
+#checkout-order-form input[type="text"] {
+	width: 200px;
+	display: block;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 0.3em;
+}
+
+#checkout-order-form select {
+	width: 200px;
+	display: block;
+}
+
+.message {
+	display: block;
+	margin: 0.5em 0;
+	color: red;
+}
+
+#user-details {
+	margin: 1.5em 0;
+}
+
+#user-details > h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+#user-details-content {
+	margin: 1.5em 0;
+	padding: 1em;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+#user-details-content .detail {
+	float: left;
+	width: 46%;
+}
+
+#user-details-content .detail.right {
+	float: right;
+}
+
+#user-details-content .detail > h2 {
+	text-align: center;
+	font-size: 1.6em;
+	margin-bottom: 0.5em;
+}
+
+#user-details-content ul {
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style: none;
+}
+
+#user-details-content li {
+	display: block;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.3em;
+	border-bottom: 1px solid #ddd;
+}
+
+#paypal-form {
+	margin: 1.5em 0;
+}
+
