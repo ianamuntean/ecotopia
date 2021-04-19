@@ -47,6 +47,7 @@ li a {
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
+  font-family: 'Lobster', cursive;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -63,7 +64,7 @@ li a:hover {
 #textAbout, #factsContent, #helpContent, .contact-us {
   margin: auto;
   width: 70%;
-  background: rgba(229, 122, 68, 0.95);
+  background:  rgba(232, 135, 44, 0.85);
   padding: 10px;
 }
 
@@ -113,18 +114,37 @@ li a:hover {
 #helpContent {
   margin: auto;
   width: 70%;
-  background: rgba(229, 122, 68, 0.95);
+  background: rgba(232, 135, 44, 0.85);;
   padding: 10px;
-  height: 1020px;
+  
+}
+
+#helpContent h1{
+	color: #305246;
 }
 
  #helpContent P {
-  margin: 30px 70px 0 70px;
-  font-size: 24px;
-  color: white;
-  font-family: 'Sorts Mill Goudy', serif;
+  margin: 30px 70px 50px 70px;
+  font-size: 25px;
+  color: #0e0f16;
+  font-family: 'Lobster', cursive;
+  text-align: center;
  }
 
+ #helpContent li, #factsContent li {
+	 float: none;
+	 list-style-type: none;
+	 margin-left: 30px;
+	 margin-top: 20px;
+	 font-size: 22px;
+	 color: #0e0f16;
+	 font-family: 'Lobster', cursive;
+ }
+
+ #helpContent li:before, #factsContent li:before { 
+	 content: '\1F332'; 
+	 margin-left: -20px; 
+	 margin-right: 10px; } 
 
 /* Facts Page */
 .facts {
@@ -133,20 +153,36 @@ li a:hover {
   background-image: url("../images/ducks.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1020px;
 }
 
-#factsContent {
-  height: 1000px;
-  overflow:hidden;
+
+#factsContent h1 {
+	color: #305246;
 }
 
-#factsContent P {
-  margin: 30px 70px 0 70px;
-  font-size: 24px;
-  color: white;
-  font-family: 'Sorts Mill Goudy', serif; 
- }
+#factsContent h2 {
+	margin: 30px 70px 0 70px;
+	font-size: 26px;
+	color: #0e0f16;
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	padding-bottom: 30px;
+	text-align: center;
+   }
+
+#vids {
+	margin-left: 40px;
+	margin-top: 40px;
+   }
+
+#factsContent p {
+	font-size: 30px;
+	color: #0e0f16;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 40px;
+}
 
 
 /* About Page CSS */
@@ -186,50 +222,64 @@ li a:hover {
    margin-top: 20px;
  }
 
- /* Content Page */
+ /* Contact Page */
 #contactContent {
   padding: 30px 0 0 0; 
   background-color: #75B09C;
   background-image: url("../images/contact.jpg");
   background-size: cover;
-  height: 1050px;
+ 
+}
+
+.twitter-timeline{
+	margin-left: 30px;
+}
+
+#helpContent h4 {
+	color: #264653;
+	font-size: 24px;
+	text-align: center;
 }
 
 .contact-us {
   height: 1000px;
 }
 
-#contactUs h1 {
-	padding-top: 50px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	font-size: 50px;
-	color: #264653;
-	letter-spacing: 5px;
-	text-shadow: 3px 4px #E9C46A;
+
+form {
+	margin-left: 10%;
 }
 
 .contact-us p {
-  font-size: 28px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
+  font-size: 25px;
+  text-align: center;
+  color: #2B2D42;
   font-family: 'Lobster', cursive;
   
 }
-.contact-us form {
-	width: 80%;
-	font-size: 28px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-  margin-top: 30px;
-  color: #264653;
-  font-weight: bold;
+
+.contact-us label {
+	font-size: 24px;
 }
 
-#contact-us button {
-  padding-top: 20px;
-  font-size: 30px;
+.contact-us input, textarea {
+	border-radius: 5px;
+	margin-bottom: 20px;
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-style: solid;
+  	border-color: white;
+}
+
+.contact-us h1{
+	color: #305246;
+}
+
+#submit_btn {
+	font-size: 24px;
+	margin-top: 30px;
 }
 
 /* Products */ 
