@@ -7,7 +7,7 @@
 
 
     <link href="css/style.css" rel="stylesheet"/>
-
+   
     <title>Ecotopia</title>
 
 </head>
@@ -45,30 +45,69 @@
 
     <div id="contactContent">
             <div class="contact-us">
-                <h1>Contact Us</h1>
+                    <div>
+                      <h1>Contact Us</h1>
+                      <p>Feel free to message us about Business or Personal Enquires</p>
+                    </div>
+                    <div class="row">
+                      <div class="column">
+                        
+                      </div>
+                      <div class="column">
+                    
+                            <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <br>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <br>
+                            <label for="lname">Last Name</label>
+                            <br>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <br>
+                            <label for="email">Enter your email:</label>
+                            <br>
+                            <input type="email" id="email" name="email">
+                            <br>
+                            <label for="country">Country</label>
+                            <br>
+                            <select id="country" name="country" style="width: 300px; height: 50px; font-size: 16px; margin-top: 10px;">
+                                <option value="ireland">Republic of Ireland</option>
+                                <option value="northernIreland">Northern Ireland</option>
+                                <option value="england">England</option>
+                                <option value="scotland">Scotland</option>
+                                <option value="wales">Wales</option>
+                            </select>
+                            <br> <br>
+                            <label for="subject">Message</label> <br>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                            
+                            <br>
+
+                            <label for="reason">Reason for your Enquiry:</label>
+                            <br>
+                                <select id="reason" name="reason" style="width: 300px; height: 50px; font-size: 16px; margin-top: 10px;">
+                                <option value="Business Enquiry">Business Enquiry</option>
+                                <option value="General Enquiry">General Enquiry</option>
+                                </select>
+                                <br><br>
+                            
+                            <!-- Submit button -->
+                            <button id="submit_btn" type="submit" value="Submit">Submit</button>
+                            </form>
+                   
+                      </div>
+                    </div>
+                  </div>
                 <!-- Form -->
                 <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Enter your name</label><br>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
 
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Enter your email address</label><br>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Enter your message</label><br>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enter your message"></textarea>
-                    </div>
-                    <!-- Submit button -->
-                    <br>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
             </div>
     </div>
 
 </div>
+
+    
 </body>
+
 </html>
 
